@@ -1,0 +1,15 @@
+.demoName {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.boldLetters {
+  font-weight: 600;
+  display: inline-block;
+  font-size: 30px;
+}
+.notBoldLetters {
+  font-weight: 300;
+  display: inline-block;
+  font-size: 30px;
+}
