@@ -1,15 +1,15 @@
 .header {
   background-color: #448ccb;
   color: white;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
   min-height: 20%;
 }
 .grid-header {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
 .grid-header-menu {
@@ -31,10 +31,13 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
-@media screen and (max-width: 1096px) {
+@media screen and (max-width: 1200px) {
   .grid-header-navbar,
   .grid-header-menu {
     display: none;
+  }
+  .grid-header {
+    grid-template-rows: repeat(1, 1fr);
   }
   .navbar-button {
     display: block;

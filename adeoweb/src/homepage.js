@@ -3,11 +3,14 @@ import Header from "./header";
 import Footer from "./footer";
 import Welcome from "./welcome";
 import HomepageBody from "./homepagebody";
+import Contact from "./contact";
 const Homepage = () => {
   return (
     <div>
       <Header />
-
+      <Welcome />
+      <HomepageBody />
+      <Contact />
       <Footer />
     </div>
   );

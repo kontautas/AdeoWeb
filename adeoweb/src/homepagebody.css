@@ -3,8 +3,8 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 50px 1fr 1fr 1fr 1fr;
   color: black;
-  padding-left: 30vh;
-  padding-right: 30vh;
+  padding-left: 24%;
+  padding-right: 24%;
   padding-top: 20px;
   padding-bottom: 20px;
   gap: 20px;

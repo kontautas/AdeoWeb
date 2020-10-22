@@ -1,10 +1,10 @@
 .footer {
   background-color: #1d2022;
   color: white;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .grid-template {
   display: grid;
@@ -43,7 +43,7 @@
   justify-content: flex-end;
   align-items: center;
 }
-@media screen and (max-width: 1096px) {
+@media screen and (max-width: 1200px) {
   .grid-footer-navbar,
   .grid-footer-text {
     display: none;

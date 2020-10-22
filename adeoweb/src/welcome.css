@@ -1,12 +1,12 @@
 .grid-intro {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 4fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  gap: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 50px;
   font-family: "Roboto";
 }
 .grid-welcome {
@@ -16,10 +16,46 @@
   grid-row-end: 5;
   color: white;
   background-color: #448ccb;
+  padding: 20px;
+  display: grid;
+  grid-template-rows: 2fr 6fr 2fr;
 }
 .grid-picture {
   grid-column-start: 2;
-  grid-column-end: 5;
+  grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 5;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+.grid-welcome-name {
+  font-size: 30px;
+  padding: 10px;
+}
+.grid-welcome-learn {
+  justify-self: end;
+  align-self: end;
+  padding: 10px;
+}
+.grid-welcome-text {
+  padding: 10px;
+}
+.grid-picture-text {
+  background-color: #d7d7d7;
+  display: grid;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  grid-template-rows: 2fr 8fr;
+}
+.grid-picture-image {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  justify-self: stretch;
+  align-self: stretch;
+}
+.grid-picture-text-header {
+  font-size: 30px;
+  font-weight: 900;
 }
