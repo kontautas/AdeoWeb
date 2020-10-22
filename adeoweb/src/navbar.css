@@ -2,10 +2,14 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  text-decoration: none;
 }
-.navbar-element {
+.navbar-element,
+.navbar-element:hover {
   padding: 10px;
   font-weight: 400;
+  color: white;
+  text-decoration: none;
 }
 .dropdown {
   position: relative;
