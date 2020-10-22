@@ -1,8 +1,8 @@
 .page {
   background-color: white;
   color: black;
-  padding-left: 30vh;
-  padding-right: 30vh;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "Roboto";
@@ -10,7 +10,7 @@
 .grid-page-template {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .grid-page-name {
   grid-column-start: 1;

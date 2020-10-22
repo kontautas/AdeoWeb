@@ -1,8 +1,8 @@
 .footer {
   background-color: #1d2022;
   color: white;
-  padding-left: 30vh;
-  padding-right: 30vh;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -42,4 +42,19 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+}
+@media screen and (max-width: 1096px) {
+  .grid-footer-navbar,
+  .grid-footer-text {
+    display: none;
+  }
+  .grid-footer-rights {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+    font-size: 12px;
+    justify-self: center;
+  }
 }

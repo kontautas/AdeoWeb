@@ -10,6 +10,11 @@ const Header = () => {
       <div className="grid-header-navbar">
         <Navbar />
       </div>
+      <div className="navbar-button">
+        <div className="navbar-button-inside"></div>
+        <div className="navbar-button-inside"></div>
+        <div className="navbar-button-inside"></div>
+      </div>
       <div className="grid-header-name">
         <Name />
       </div>
