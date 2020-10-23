@@ -24,6 +24,7 @@ const Welcome = () => {
       </div>
       <div className="grid-picture">
         <img
+          alt=""
           className="grid-picture-image"
           src={process.env.PUBLIC_URL + "/coffeeflowers.jpg"}
         ></img>

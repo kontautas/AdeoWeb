@@ -1,8 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Page from "./page";
-import Homepage from "./homepage";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (

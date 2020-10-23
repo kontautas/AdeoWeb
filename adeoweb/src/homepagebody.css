@@ -43,3 +43,43 @@
   grid-row-start: 5;
   grid-row-end: 7;
 }
+img {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 1000px) {
+  .grid-homepagebody {
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 1.5fr 1fr 1fr;
+  }
+  .grid-products {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .grid-offers {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .grid-weather {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .grid-coffee {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .grid-books {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 5;
+    grid-row-end: 6;
+  }
+}

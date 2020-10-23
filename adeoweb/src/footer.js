@@ -16,7 +16,10 @@ const footer = () => {
       </div>
       <div className="grid-footer-rights inline">
         <div style={{ paddingRight: "10px", color: "grey" }}>©</div>
-        <Name style={{ fontSize: "12px" }} />
+        <Name
+          notGrey={{ fontSize: "12px" }}
+          Grey={{ fontSize: "12px", color: "grey" }}
+        />
         <div style={{ paddingLeft: "10px", color: "grey" }}>
           All rights reserved
         </div>
