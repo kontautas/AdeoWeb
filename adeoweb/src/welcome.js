@@ -1,5 +1,6 @@
 import React from "react";
 import "./welcome.css";
+import Button from "./learnButton";
 const Welcome = () => {
   return (
     <div className="grid-intro">
@@ -11,7 +12,15 @@ const Welcome = () => {
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </div>
-        <div className="grid-welcome-learn">LEARN MORE</div>
+        <div className="grid-welcome-learn">
+          <Button
+            style={{
+              borderColor: "white",
+              backgroundColor: "#3B91C2",
+              color: "white",
+            }}
+          />
+        </div>
       </div>
       <div className="grid-picture">
         <img

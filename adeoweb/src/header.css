@@ -31,7 +31,7 @@
   grid-row-start: 2;
   grid-row-end: 3;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .grid-header-navbar,
   .grid-header-menu {
     display: none;

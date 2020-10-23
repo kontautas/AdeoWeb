@@ -1,5 +1,6 @@
 import React from "react";
 import "./contact.css";
+import "./learnButton.css";
 const Contact = () => {
   return (
     <div className="grid-contact">
@@ -38,7 +39,11 @@ const Contact = () => {
           <input className="grid-contact-form-bigtext" type="text"></input>
 
           <div style={{ paddingTop: "20px" }}>
-            <input type="submit" value="LEARN MORE"></input>
+            <input
+              className="learnButton"
+              type="submit"
+              value="LEARN MORE"
+            ></input>
           </div>
         </form>
       </div>

@@ -43,7 +43,7 @@
   justify-content: flex-end;
   align-items: center;
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
   .grid-footer-navbar,
   .grid-footer-text {
     display: none;

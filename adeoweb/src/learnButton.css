@@ -1,0 +1,13 @@
+.learnButton {
+  background-color: white;
+  display: block;
+  color: #448ccb;
+  border-style: solid;
+  border-color: #448ccb;
+  width: 160px;
+  height: 40px;
+  font-family: "Roboto";
+  font-weight: 900;
+  text-align: center;
+  padding: 7px 0px;
+}
