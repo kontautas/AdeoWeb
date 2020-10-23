@@ -4,6 +4,7 @@ import Footer from "./footer";
 import Welcome from "./welcome";
 import HomepageBody from "./homepagebody";
 import Contact from "./contact";
+import "./homepage.css";
 const Homepage = () => {
   return (
     <div>

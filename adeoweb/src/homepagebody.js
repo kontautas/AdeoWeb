@@ -10,13 +10,14 @@ const HomepageBody = () => {
         <Product />
       </div>
       <div className="grid-coffee">
-        <img alt="" src={process.env.PUBLIC_URL + "/coffeecup.jpg"}></img>
+        <div className="background-text">THE BEST COFFEE</div>
       </div>
       <div className="grid-books">
-        <img alt="" src={process.env.PUBLIC_URL + "/books.jpg"}></img>
+        <div className="background-text">TOP 100 BOOKS</div>
       </div>
     </div>
   );
 };
-
+//<img alt="" src={process.env.PUBLIC_URL + "/coffeecup.jpg"}></img>
+//<img alt="" src={process.env.PUBLIC_URL + "/books.jpg"}></img>
 export default HomepageBody;

@@ -65,10 +65,12 @@
   font-size: 30px;
   font-weight: 900;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .grid-intro {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .grid-welcome {
     grid-column-start: 1;

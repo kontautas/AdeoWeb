@@ -61,10 +61,12 @@
 .grid-contact-form-learn {
   padding-top: 20px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .grid-contact {
     grid-template-columns: 1fr;
-    grid-template-rows: 40px 1.5fr 1fr;
+    grid-template-rows: 40px 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   .grid-contact-name {
     grid-column-start: 1;
