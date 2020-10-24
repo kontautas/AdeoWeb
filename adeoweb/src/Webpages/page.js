@@ -1,12 +1,12 @@
 import React from "react";
-import "../Styles/page.css";
+import "../Styles/page.scss";
 import Header from "../Components/header";
 import Footer from "../Components/footer";
 function Page(props) {
   return (
     <div>
       <Header />
-      <div className="page grid-page-template">
+      <div className="grid-page-template">
         <div className="grid-page-name">
           <div>{props.name}</div>
         </div>

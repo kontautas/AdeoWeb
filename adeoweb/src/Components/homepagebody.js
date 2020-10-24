@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/homepagebody.css";
+import "../Styles/homepagebody.scss";
 import Product from "./products";
 const HomepageBody = () => {
   return (
@@ -18,6 +18,4 @@ const HomepageBody = () => {
     </div>
   );
 };
-//<img alt="" src={process.env.PUBLIC_URL + "/coffeecup.jpg"}></img>
-//<img alt="" src={process.env.PUBLIC_URL + "/books.jpg"}></img>
 export default HomepageBody;

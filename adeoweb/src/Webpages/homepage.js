@@ -4,7 +4,6 @@ import Footer from "../Components/footer";
 import Welcome from "../Components/welcome";
 import HomepageBody from "../Components/homepagebody";
 import Contact from "../Components/contact";
-import "../Styles/homepage.css";
 const Homepage = () => {
   return (
     <div>

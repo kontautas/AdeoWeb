@@ -1,13 +1,15 @@
+@import "./variables";
+
 .learnButton {
   background-color: white;
   display: block;
-  color: #448ccb;
+  color: $BlueBackground;
   border-style: solid;
-  border-color: #448ccb;
-  width: 160px;
+  border-color: $BlueBackground;
+  width: 200px;
   height: 40px;
   font-family: "Roboto";
   font-weight: 900;
   text-align: center;
-  padding: 7px 0px;
+  padding: 10px 5px;
 }

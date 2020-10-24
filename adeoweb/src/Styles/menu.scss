@@ -1,0 +1,18 @@
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .menu-elements {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-weight: 100;
+    border-right: 1px solid white;
+  }
+  .menu-elements:nth-of-type(1) {
+    padding-left: 0px;
+  }
+  .menu-elements:nth-of-type(5) {
+    border-right: 0px;
+  }
+}

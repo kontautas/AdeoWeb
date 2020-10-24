@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/welcome.css";
+import "../Styles/welcome.scss";
 import Button from "./learnButton";
 import CoffeeFlowers from "../Images/coffeeflowers.jpg";
 const Welcome = () => {

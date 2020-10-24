@@ -1,12 +1,12 @@
 import React from "react";
-import "../Styles/header.css";
+import "../Styles/header.scss";
 import Navbar from "./navbar";
 import Name from "./demoName";
 import Menu from "./menu";
 
 const Header = () => {
   return (
-    <div className="grid-header header">
+    <div className="grid-header">
       <div className="grid-header-navbar">
         <Navbar />
       </div>
