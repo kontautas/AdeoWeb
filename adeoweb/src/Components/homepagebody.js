@@ -1,19 +1,19 @@
 import React from "react";
-import "../Styles/homepagebody.scss";
+import Homepage from "../Styles/homepagebody.module.scss";
 import Product from "./products";
 const HomepageBody = () => {
   return (
-    <div className="grid-homepagebody">
-      <div className="grid-products">PRODUCTS</div>
-      <div className="grid-offers">OFFERS TODAY</div>
-      <div className="grid-weather">
+    <div className={Homepage.gridHomepagebody}>
+      <div className={Homepage.gridProducts}>PRODUCTS</div>
+      <div className={Homepage.gridOffers}>OFFERS TODAY</div>
+      <div className={Homepage.gridWeather}>
         <Product />
       </div>
-      <div className="grid-coffee">
-        <div className="background-text">THE BEST COFFEE</div>
+      <div className={Homepage.gridCoffee}>
+        <div className={Homepage.backgroundText}>THE BEST COFFEE</div>
       </div>
-      <div className="grid-books">
-        <div className="background-text">TOP 100 BOOKS</div>
+      <div className={Homepage.gridBooks}>
+        <div className={Homepage.backgroundText}>TOP 100 BOOKS</div>
       </div>
     </div>
   );

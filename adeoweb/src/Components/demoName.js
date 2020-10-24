@@ -1,12 +1,12 @@
 import React from "react";
-import "../Styles/demoName.scss";
+import DemoNameStyles from "../Styles/demoName.module.scss";
 const demoName = (props) => {
   return (
-    <div className="demoName">
-      <div className="boldLetters" style={props.notGrey}>
+    <div className={DemoNameStyles.demoName}>
+      <div className={DemoNameStyles.boldLetters} style={props.notGrey}>
         DEMO
       </div>
-      <div className="notBoldLetters" style={props.Grey}>
+      <div className={DemoNameStyles.notBoldLetters} style={props.Grey}>
         SITE
       </div>
     </div>

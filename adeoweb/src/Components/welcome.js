@@ -1,32 +1,36 @@
 import React from "react";
-import "../Styles/welcome.scss";
+import WelcomeStyle from "../Styles/welcome.module.scss";
 import Button from "./learnButton";
 import CoffeeFlowers from "../Images/coffeeflowers.jpg";
 const Welcome = () => {
   return (
-    <div className="grid-intro">
-      <div className="grid-welcome">
-        <div className="grid-welcome-name">WELCOME</div>
-        <div className="grid-welcome-text">
+    <div className={WelcomeStyle.gridIntro}>
+      <div className={WelcomeStyle.gridWelcome}>
+        <div className={WelcomeStyle.gridWelcomeName}>WELCOME</div>
+        <div className={WelcomeStyle.gridWelcomeText}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut
           aliquip ex ea commodo consequat.
         </div>
-        <div className="grid-welcome-learn">
+        <div className={WelcomeStyle.gridWelcomeLearn}>
           <Button
             style={{
               borderColor: "white",
               backgroundColor: "#3B91C2",
-              color: "white",
             }}
+            link={{ color: "white" }}
           />
         </div>
       </div>
-      <div className="grid-picture">
-        <img alt="" className="grid-picture-image" src={CoffeeFlowers}></img>
-        <div className="grid-picture-text">
-          <div className="grid-picture-text-header">UI/UX Design</div>
+      <div className={WelcomeStyle.gridPicture}>
+        <img
+          alt=""
+          className={WelcomeStyle.gridPictureImage}
+          src={CoffeeFlowers}
+        ></img>
+        <div className={WelcomeStyle.gridPictureText}>
+          <div className={WelcomeStyle.gridPictureTextHeader}>UI/UX Design</div>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor <br></br> incididunt ut labore et dolore magna

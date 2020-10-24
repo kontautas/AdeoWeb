@@ -3,13 +3,24 @@
 .learnButton {
   background-color: white;
   display: block;
-  color: $BlueBackground;
   border-style: solid;
   border-color: $BlueBackground;
+  color: $BlueBackground;
   width: 200px;
   height: 40px;
   font-family: "Roboto";
   font-weight: 900;
   text-align: center;
-  padding: 10px 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .NavLink {
+    color: $BlueBackground;
+    text-decoration: none;
+    &:hover,
+    &::after {
+      text-decoration: none;
+    }
+  }
 }

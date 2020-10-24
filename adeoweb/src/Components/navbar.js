@@ -1,41 +1,41 @@
 import React from "react";
-import "../Styles/navbar.scss";
+import NavbarStyle from "../Styles/navbar.module.scss";
 import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div>
-      <div className="navbar">
-        <Link className="navbar-element" to="/">
+      <div className={NavbarStyle.navbar}>
+        <Link className={NavbarStyle.navbarElement} to="/">
           HOME
         </Link>
-        <Link className="navbar-element" to="/service">
+        <Link className={NavbarStyle.navbarElement} to="/service">
           SERVICE
         </Link>
-        <div className="dropdown navbar-element">
+        <div className={`${NavbarStyle.dropdown} ${NavbarStyle.navbarElement}`}>
           WORKS
-          <div className="dropdown-content">
-            <Link className="dropdown-element" to="/works/all">
+          <div className={NavbarStyle.dropdownContent}>
+            <Link className={NavbarStyle.dropdownElement} to="/works/all">
               ALL
             </Link>
-            <Link className="dropdown-element" to="/works/graphic">
+            <Link className={NavbarStyle.dropdownElement} to="/works/graphic">
               GRAPHIC
             </Link>
-            <Link className="dropdown-element" to="/works/design">
+            <Link className={NavbarStyle.dropdownElement} to="/works/design">
               DESIGN
             </Link>
-            <Link className="dropdown-element" to="/works/logo">
+            <Link className={NavbarStyle.dropdownElement} to="/works/logo">
               LOGO
             </Link>
-            <Link className="dropdown-element" to="/works/website">
+            <Link className={NavbarStyle.dropdownElement} to="/works/website">
               WEBSITE
             </Link>
           </div>
         </div>
-        <Link className="navbar-element" to="/aboutme">
+        <Link className={NavbarStyle.navbarElement} to="/aboutme">
           ABOUT ME
         </Link>
-        <Link className="navbar-element" to="/contact">
+        <Link className={NavbarStyle.navbarElement} to="/contact">
           CONTACT
         </Link>
       </div>

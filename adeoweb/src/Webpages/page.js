@@ -1,19 +1,20 @@
 import React from "react";
-import "../Styles/page.scss";
+import PageStyle from "../Styles/page.module.scss";
 import Header from "../Components/header";
 import Footer from "../Components/footer";
+import BackButton from "../Components/backButton";
 function Page(props) {
   return (
     <div>
       <Header />
-      <div className="grid-page-template">
-        <div className="grid-page-name">
+      <div className={PageStyle.gridPageTemplate}>
+        <div className={PageStyle.gridPageName}>
           <div>{props.name}</div>
         </div>
-        <div className="grid-page-button">
-          <div></div>
+        <div className={PageStyle.gridPageButton}>
+          <BackButton />
         </div>
-        <div className="grid-page-text">
+        <div className={PageStyle.gridPageText}>
           <div>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae

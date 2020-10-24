@@ -1,6 +1,6 @@
 @import "./variables";
 
-.grid-header {
+.gridHeader {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -12,20 +12,20 @@
   padding-bottom: 20px;
   min-height: 20%;
 
-  .grid-header-menu {
+  .gridHeaderMenu {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
   }
-  .grid-header-name {
+  .gridHeaderName {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     align-self: center;
   }
-  .grid-header-navbar {
+  .gridHeaderNavbar {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
@@ -34,14 +34,14 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .grid-header {
+  .gridHeader {
     grid-template-rows: repeat(1, 1fr);
-    .grid-header-navbar,
-    .grid-header-menu {
+    .gridHeaderNavbar,
+    .gridHeaderMenu {
       display: none;
     }
   }
-  .navbar-button {
+  .navbarButton {
     display: block;
     background-color: $NavbarButtonDarkBlue;
     width: 50px;
@@ -55,13 +55,13 @@
     border-radius: 10px;
     justify-self: end;
 
-    .navbar-button-inside {
+    .navbarButtonInside {
       width: 20px;
       height: 5px;
       margin: 5px;
       background-color: white;
     }
-    .navbar-button-inside:nth-of-type(1) {
+    .navbarButtonInside:nth-of-type(1) {
       margin-top: 2px;
     }
   }

@@ -1,24 +1,24 @@
 import React from "react";
-import "../Styles/header.scss";
-import Navbar from "./navbar";
-import Name from "./demoName";
-import Menu from "./menu";
-
+import HeaderStyle from "../Styles/header.module.scss";
+import Navbar from "../Components/navbar";
+import Name from "../Components/demoName";
+import Menu from "../Components/menu";
+import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="grid-header">
-      <div className="grid-header-navbar">
+    <div className={HeaderStyle.gridHeader}>
+      <div className={HeaderStyle.gridHeaderNavbar}>
         <Navbar />
       </div>
-      <div className="navbar-button">
-        <div className="navbar-button-inside"></div>
-        <div className="navbar-button-inside"></div>
-        <div className="navbar-button-inside"></div>
+      <div className={HeaderStyle.navbarButton}>
+        <div className={HeaderStyle.navbarButtonInside}></div>
+        <div className={HeaderStyle.navbarButtonInside}></div>
+        <div className={HeaderStyle.navbarButtonInside}></div>
       </div>
-      <div className="grid-header-name">
+      <div className={HeaderStyle.gridHeaderName}>
         <Name />
       </div>
-      <div className="grid-header-menu">
+      <div className={HeaderStyle.gridHeaderMenu}>
         <Menu />
       </div>
     </div>

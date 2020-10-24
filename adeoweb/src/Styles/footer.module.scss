@@ -1,6 +1,6 @@
 @import "./variables";
 
-.grid-template {
+.gridTemplate {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -11,7 +11,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
 
-  .grid-footer-navbar {
+  .gridFooterNavbar {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -20,7 +20,7 @@
     padding-bottom: 10px;
     justify-self: end;
   }
-  .grid-footer-text {
+  .gridFooterText {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -28,8 +28,10 @@
     color: grey;
     font-size: 12px;
     justify-self: start;
+    padding-top: 30px;
+    padding-bottom: 10px;
   }
-  .grid-footer-rights {
+  .gridFooterRights {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;

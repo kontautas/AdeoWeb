@@ -1,13 +1,13 @@
 import React from "react";
-import "../Styles/menu.scss";
+import MenuStyle from "../Styles/menu.module.scss";
 const menu = () => {
   return (
-    <div className="menu">
-      <div className="menu-elements">MENU</div>
-      <div className="menu-elements">SOME TEXT</div>
-      <div className="menu-elements">ANOTHER ITEM</div>
-      <div className="menu-elements">ONE MORE</div>
-      <div className="menu-elements">AND LAST ONE</div>
+    <div className={MenuStyle.menu}>
+      <div className={MenuStyle.menuElements}>MENU</div>
+      <div className={MenuStyle.menuElements}>SOME TEXT</div>
+      <div className={MenuStyle.menuElements}>ANOTHER ITEM</div>
+      <div className={MenuStyle.menuElements}>ONE MORE</div>
+      <div className={MenuStyle.menuElements}>AND LAST ONE</div>
     </div>
   );
 };

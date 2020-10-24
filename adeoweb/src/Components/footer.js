@@ -1,21 +1,21 @@
 import React from "react";
-import "../Styles/footer.scss";
+import FooterStyle from "../Styles/footer.module.scss";
 import Navbar from "./navbar";
 import Name from "./demoName";
 const footer = () => {
   return (
-    <div className="grid-template">
-      <div className="grid-footer-navbar">
+    <div className={FooterStyle.gridTemplate}>
+      <div className={FooterStyle.gridFooterNavbar}>
         <Navbar />
       </div>
-      <div className="grid-footer-text">
+      <div className={FooterStyle.gridFooterText}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       </div>
-      <div className="grid-footer-rights">
-        <div className="inline">
+      <div className={FooterStyle.gridFooterRights}>
+        <div className={FooterStyle.inline}>
           <div style={{ paddingRight: "5px", color: "grey" }}>©</div>
           <Name
             notGrey={{ fontSize: "12px" }}

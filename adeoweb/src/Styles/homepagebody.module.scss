@@ -1,4 +1,4 @@
-.grid-homepagebody {
+.gridHomepagebody {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 50px 50px repeat(4, minmax(60px, 1fr));
@@ -11,27 +11,27 @@
   font-weight: 900;
   font-family: "Roboto";
 
-  .grid-products {
+  .gridProducts {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     font-size: 30px;
   }
-  .grid-offers {
+  .gridOffers {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     font-size: 20px;
   }
-  .grid-weather {
+  .gridWeather {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 7;
   }
-  .grid-coffee {
+  .gridCoffee {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
@@ -41,7 +41,7 @@
     background-size: cover;
     position: relative;
   }
-  .grid-books {
+  .gridBooks {
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 5;
@@ -52,7 +52,7 @@
     position: relative;
   }
 }
-.background-text {
+.backgroundText {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -68,37 +68,37 @@ img {
   height: 100%;
 }
 @media screen and (max-width: 1200px) {
-  .grid-homepagebody {
+  .gridHomepagebody {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 1.5fr 1fr 1fr;
     padding-left: 5%;
     padding-right: 5%;
 
-    .grid-products {
+    .gridProducts {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 1;
       grid-row-end: 2;
     }
-    .grid-offers {
+    .gridOffers {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 2;
       grid-row-end: 3;
     }
-    .grid-weather {
+    .gridWeather {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 3;
       grid-row-end: 4;
     }
-    .grid-coffee {
+    .gridCoffee {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 4;
       grid-row-end: 5;
     }
-    .grid-books {
+    .gridBooks {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 5;

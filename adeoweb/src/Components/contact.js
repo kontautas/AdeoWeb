@@ -1,11 +1,12 @@
 import React from "react";
-import "../Styles/contact.scss";
-import "../Styles/learnButton.scss";
+import ContactStyle from "../Styles/contact.module.scss";
+import LearnButtonStyle from "../Styles/learnButton.module.scss";
+console.log(ContactStyle);
 const Contact = () => {
   return (
-    <div className="grid-contact">
-      <div className="grid-contact-name">CONTACT</div>
-      <div className="grid-contact-text">
+    <div className={ContactStyle.gridContact}>
+      <div className={ContactStyle.gridContactName}>CONTACT</div>
+      <div className={ContactStyle.gridContactText}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -21,14 +22,17 @@ const Contact = () => {
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
         commodo consequat.
       </div>
-      <div className="grid-contact-form">
+      <div className={ContactStyle.gridContactForm}>
         <form>
           <label>NAME</label>
-          <input className="grid-contact-form-smalltext" type="text"></input>
+          <input
+            className={ContactStyle.gridContactFormSmalltext}
+            type="text"
+          ></input>
 
           <label style={{ paddingTop: "20px" }}>EMAIL</label>
           <input
-            className="grid-contact-form-email"
+            className={ContactStyle.gridContactFormEmail}
             type="email"
             id="email"
             name="email"
@@ -36,11 +40,11 @@ const Contact = () => {
           ></input>
 
           <label style={{ paddingTop: "20px" }}>MESSAGE</label>
-          <input className="grid-contact-form-bigtext" type="text"></input>
+          <textarea className={ContactStyle.gridContactFormBigtext}></textarea>
 
           <div style={{ paddingTop: "20px" }}>
             <input
-              className="learnButton"
+              className={`${LearnButtonStyle.learnButton} ${ContactStyle.contactButton}`}
               type="submit"
               value="LEARN MORE"
             ></input>
