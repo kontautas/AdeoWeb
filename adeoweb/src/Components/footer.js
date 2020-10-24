@@ -6,7 +6,7 @@ const footer = () => {
   return (
     <div className={FooterStyle.gridTemplate}>
       <div className={FooterStyle.gridFooterNavbar}>
-        <Navbar />
+        <Navbar dropdown={{ bottom: "100%" }} arrow="down" />
       </div>
       <div className={FooterStyle.gridFooterText}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

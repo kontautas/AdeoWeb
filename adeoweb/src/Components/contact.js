@@ -28,6 +28,7 @@ const Contact = () => {
           <input
             className={ContactStyle.gridContactFormSmalltext}
             type="text"
+            required
           ></input>
 
           <label style={{ paddingTop: "20px" }}>EMAIL</label>
@@ -40,7 +41,10 @@ const Contact = () => {
           ></input>
 
           <label style={{ paddingTop: "20px" }}>MESSAGE</label>
-          <textarea className={ContactStyle.gridContactFormBigtext}></textarea>
+          <textarea
+            className={ContactStyle.gridContactFormBigtext}
+            required
+          ></textarea>
 
           <div style={{ paddingTop: "20px" }}>
             <input

@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <div className={HeaderStyle.gridHeader}>
       <div className={HeaderStyle.gridHeaderNavbar}>
-        <Navbar />
+        <Navbar arrow="up" />
       </div>
       <div className={HeaderStyle.navbarButton}>
         <div className={HeaderStyle.navbarButtonInside}></div>

@@ -17,6 +17,7 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    align-self: center;
   }
   .gridHeaderName {
     grid-column-start: 1;
@@ -30,10 +31,11 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    align-self: center;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .gridHeader {
     grid-template-rows: repeat(1, 1fr);
     .gridHeaderNavbar,

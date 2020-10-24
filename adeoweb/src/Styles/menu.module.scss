@@ -2,15 +2,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
 
   .menuElements {
-    padding-right: 8px;
-    padding-left: 8px;
+    padding: 8px;
     font-weight: 100;
     border-right: 1px solid white;
   }
   .menuElements:nth-of-type(1) {
     padding-left: 0px;
+    border-right: 0;
+  }
+  .menuElements:nth-of-type(2) {
+    border-left: 1px solid white;
   }
   .menuElements:nth-of-type(5) {
     border-right: 0px;

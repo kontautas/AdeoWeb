@@ -2,7 +2,14 @@ import React from "react";
 import NavbarStyle from "../Styles/navbar.module.scss";
 import { Link } from "react-router-dom";
 
-function Navbar() {
+function Navbar(props) {
+  let arrow;
+  if (props.arrow === "down") {
+    arrow = {};
+  } else if (props.arrow === "up") {
+    arrow = {};
+  }
+
   return (
     <div>
       <div className={NavbarStyle.navbar}>
@@ -14,7 +21,10 @@ function Navbar() {
         </Link>
         <div className={`${NavbarStyle.dropdown} ${NavbarStyle.navbarElement}`}>
           WORKS
-          <div className={NavbarStyle.dropdownContent}>
+          <div
+            style={props.dropdown}
+            className={`${NavbarStyle.dropdownContent} ${arrow}`}
+          >
             <Link className={NavbarStyle.dropdownElement} to="/works/all">
               ALL
             </Link>
@@ -33,7 +43,7 @@ function Navbar() {
           </div>
         </div>
         <Link className={NavbarStyle.navbarElement} to="/aboutme">
-          ABOUT ME
+          ABOUT_ME
         </Link>
         <Link className={NavbarStyle.navbarElement} to="/contact">
           CONTACT

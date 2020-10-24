@@ -47,13 +47,13 @@
   }
 }
 
-@media screen and (max-width: 1000px) {
-  .grid-template {
-    .grid-footer-navbar,
-    .grid-footer-text {
+@media screen and (max-width: 1200px) {
+  .gridTemplate {
+    .gridFooterNavbar,
+    .gridFooterText {
       display: none;
     }
-    .grid-footer-rights {
+    .gridFooterRights {
       grid-column-start: 1;
       grid-column-end: 3;
       grid-row-start: 1;

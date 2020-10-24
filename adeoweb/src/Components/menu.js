@@ -4,10 +4,10 @@ const menu = () => {
   return (
     <div className={MenuStyle.menu}>
       <div className={MenuStyle.menuElements}>MENU</div>
-      <div className={MenuStyle.menuElements}>SOME TEXT</div>
-      <div className={MenuStyle.menuElements}>ANOTHER ITEM</div>
-      <div className={MenuStyle.menuElements}>ONE MORE</div>
-      <div className={MenuStyle.menuElements}>AND LAST ONE</div>
+      <div className={MenuStyle.menuElements}>SOME_TEXT</div>
+      <div className={MenuStyle.menuElements}>ANOTHER_ITEM</div>
+      <div className={MenuStyle.menuElements}>ONE_MORE</div>
+      <div className={MenuStyle.menuElements}>AND_LAST_ONE</div>
     </div>
   );
 };
