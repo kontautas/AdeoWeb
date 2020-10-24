@@ -1,7 +1,7 @@
 import React from "react";
-import "./page.css";
-import Header from "./header";
-import Footer from "./footer";
+import "../Styles/page.css";
+import Header from "../Components/header";
+import Footer from "../Components/footer";
 function Page(props) {
   return (
     <div>

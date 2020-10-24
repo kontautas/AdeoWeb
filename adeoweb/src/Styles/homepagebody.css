@@ -1,7 +1,7 @@
 .grid-homepagebody {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 50px repeat(4, 1fr);
+  grid-template-rows: 50px 50px repeat(4, minmax(100px, 1fr));
   color: black;
   padding-left: 24%;
   padding-right: 24%;
@@ -36,7 +36,7 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 5;
-  background-image: url("./coffeecup.jpg");
+  background-image: url("../Images/coffeecup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -46,7 +46,7 @@
   grid-column-end: 3;
   grid-row-start: 5;
   grid-row-end: 7;
-  background-image: url("./books.jpg");
+  background-image: url("../Images/books.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;

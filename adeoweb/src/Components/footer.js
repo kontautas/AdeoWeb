@@ -1,5 +1,5 @@
 import React from "react";
-import "./footer.css";
+import "../Styles/footer.css";
 import Navbar from "./navbar";
 import Name from "./demoName";
 const footer = () => {
@@ -15,12 +15,12 @@ const footer = () => {
         commodo consequat.
       </div>
       <div className="grid-footer-rights inline">
-        <div style={{ paddingRight: "10px", color: "grey" }}>©</div>
+        <div style={{ paddingRight: "5px", color: "grey" }}>©</div>
         <Name
           notGrey={{ fontSize: "12px" }}
           Grey={{ fontSize: "12px", color: "grey" }}
         />
-        <div style={{ paddingLeft: "10px", color: "grey" }}>
+        <div style={{ paddingLeft: "5px", color: "grey" }}>
           All rights reserved
         </div>
       </div>

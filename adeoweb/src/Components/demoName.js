@@ -1,5 +1,5 @@
 import React from "react";
-import "./demoName.css";
+import "../Styles/demoName.css";
 const demoName = (props) => {
   return (
     <div className="demoName">

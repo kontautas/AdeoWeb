@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
-
+import Snowflake from "../Images/snowflake.svg";
+import Sunglasses from "../Images/sunglasses.svg";
+import Umbrella from "../Images/umbrella.svg";
 function Product(props) {
   useEffect(() => {
     fetchMeteo();
@@ -27,6 +29,7 @@ function Product(props) {
       const fetchMeteo = await fetch(meteourl);
 
       const meteo = await fetchMeteo.json();
+
       const currentTime = new Date().toLocaleString();
       for (let element in meteo.forecastTimestamps) {
         if (
@@ -43,7 +46,6 @@ function Product(props) {
       console.log(err);
     }
   };
-
   let image;
   if (
     meteo === "ISOLATED-CLOUDS" ||
@@ -51,7 +53,7 @@ function Product(props) {
     meteo === "CLEAR" ||
     meteo === "NA"
   ) {
-    image = <img alt="" src={process.env.PUBLIC_URL + "/sunglasses.svg"}></img>;
+    image = <img alt="" src={Sunglasses}></img>;
   } else if (
     meteo === "OVERCAST" ||
     meteo === "LIGHT-RAIN" ||
@@ -59,14 +61,14 @@ function Product(props) {
     meteo === "HEAVY-RAIN" ||
     meteo === "FOG"
   ) {
-    image = <img alt="" src={process.env.PUBLIC_URL + "/umbrella.svg"}></img>;
+    image = <img alt="" src={Umbrella}></img>;
   } else if (
     meteo === "SLEET" ||
     meteo === "LIGHT-SNOW" ||
     meteo === "MODERATE-SNOW" ||
     meteo === "HEAVY-SNOW"
   ) {
-    image = <img alt="" src={process.env.PUBLIC_URL + "/snowflake.svg"}></img>;
+    image = <img alt="" src={Snowflake}></img>;
   }
   return <div>{image}</div>;
 }

@@ -1,6 +1,7 @@
 import React from "react";
-import "./welcome.css";
+import "../Styles/welcome.css";
 import Button from "./learnButton";
+import CoffeeFlowers from "../Images/coffeeflowers.jpg";
 const Welcome = () => {
   return (
     <div className="grid-intro">
@@ -23,11 +24,7 @@ const Welcome = () => {
         </div>
       </div>
       <div className="grid-picture">
-        <img
-          alt=""
-          className="grid-picture-image"
-          src={process.env.PUBLIC_URL + "/coffeeflowers.jpg"}
-        ></img>
+        <img alt="" className="grid-picture-image" src={CoffeeFlowers}></img>
         <div className="grid-picture-text">
           <div className="grid-picture-text-header">UI/UX Design</div>
           <div>

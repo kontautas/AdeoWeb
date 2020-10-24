@@ -1,5 +1,5 @@
 import React from "react";
-import "./homepagebody.css";
+import "../Styles/homepagebody.css";
 import Product from "./products";
 const HomepageBody = () => {
   return (

@@ -36,7 +36,7 @@
 .grid-welcome-name:after {
   content: "";
   display: block;
-  width: 15%;
+  width: 19%;
   padding-top: 20px;
   border-bottom: 8px solid white;
 }
@@ -68,7 +68,7 @@
 @media screen and (max-width: 1200px) {
   .grid-intro {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr;
     padding-left: 5%;
     padding-right: 5%;
   }

@@ -1,6 +1,6 @@
 import React from "react";
-import "./contact.css";
-import "./learnButton.css";
+import "../Styles/contact.css";
+import "../Styles/learnButton.css";
 const Contact = () => {
   return (
     <div className="grid-contact">

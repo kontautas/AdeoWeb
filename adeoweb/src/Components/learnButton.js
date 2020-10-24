@@ -1,5 +1,5 @@
 import React from "react";
-import "./learnButton.css";
+import "../Styles/learnButton.css";
 const LearnButton = (props) => {
   return (
     <div className="learnButton" style={props.style}>
