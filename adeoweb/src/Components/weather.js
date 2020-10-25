@@ -1,6 +1,6 @@
 import React from "react";
 import Homepage from "../Styles/weather.module.scss";
-import Meteo from "./GetMeteo";
+import Meteo from "./getMeteo";
 const Weather = () => {
   return (
     <div className={Homepage.gridHomepagebody}>

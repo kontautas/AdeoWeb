@@ -4,7 +4,11 @@ import { NavLink } from "react-router-dom";
 const LearnButton = (props) => {
   return (
     <div className={LearnButtonStyle.learnButton} style={props.style}>
-      <NavLink className={LearnButtonStyle.NavLink} style={props.link} to="/">
+      <NavLink
+        className={LearnButtonStyle.NavLink}
+        style={props.link}
+        to="/learnmore"
+      >
         LEARN MORE
       </NavLink>
     </div>

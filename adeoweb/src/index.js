@@ -15,6 +15,11 @@ const App = () => {
             </Route>
             <Route
               exact
+              path="/learnmore"
+              render={() => <Page name="LEARN MORE" />}
+            ></Route>
+            <Route
+              exact
               path="/service"
               render={() => <Page name="SERVICE" />}
             ></Route>

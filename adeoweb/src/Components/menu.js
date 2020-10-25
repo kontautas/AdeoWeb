@@ -1,6 +1,6 @@
 import React from "react";
 import MenuStyle from "../Styles/menu.module.scss";
-const menu = () => {
+const Menu = () => {
   return (
     <div className={MenuStyle.menu}>
       <div className={MenuStyle.menuElements}>MENU</div>
@@ -12,4 +12,4 @@ const menu = () => {
   );
 };
 
-export default menu;
+export default Menu;

@@ -4,7 +4,7 @@ import NavbarStyle from "../Styles/navbar.module.scss";
 import Navbar from "./navbar";
 import Name from "./demoName";
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className={FooterStyle.gridTemplate}>
       <div className={FooterStyle.gridFooterNavbar}>
@@ -32,4 +32,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
