@@ -59,7 +59,7 @@
   height: 30%;
   background: rgba(215, 215, 215, 0.8);
   padding: 2% 2%;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 900;
 }
 
@@ -104,5 +104,8 @@ img {
       grid-row-start: 5;
       grid-row-end: 6;
     }
+  }
+  .backgroundText {
+    padding: 7% 2%;
   }
 }
