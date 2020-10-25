@@ -1,7 +1,6 @@
 import React from "react";
 import ContactStyle from "../Styles/contact.module.scss";
 import LearnButtonStyle from "../Styles/learnButton.module.scss";
-console.log(ContactStyle);
 const Contact = () => {
   return (
     <div className={ContactStyle.gridContact}>

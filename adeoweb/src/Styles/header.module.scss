@@ -33,6 +33,43 @@
     grid-row-end: 3;
     align-self: center;
   }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    .dropdownContent {
+      margin-top: 50px;
+      display: none;
+      position: absolute;
+      left: 45%;
+      right: auto;
+      transform: translateX(-50%);
+      background-color: black;
+      width: 150px;
+      padding: 5px;
+      .dropdownElement {
+        color: white;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 10px;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+
+      &.dropdownUp::after {
+        position: absolute;
+        left: 45%;
+        top: -10px;
+        content: "";
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #000000;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -42,29 +79,32 @@
     .gridHeaderMenu {
       display: none;
     }
-  }
-  .navbarButton {
-    display: block;
-    background-color: $NavbarButtonDarkBlue;
-    width: 50px;
-    height: 50px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    padding: 10px;
-    align-self: center;
-    border-radius: 10px;
-    justify-self: end;
 
+    .navbarButton {
+      display: block;
+      background-color: $NavbarButtonDarkBlue;
+      width: 50px;
+      height: 50px;
+      grid-column-start: 2;
+      grid-column-end: 3;
+      grid-row-start: 2;
+      grid-row-end: 3;
+      padding: 10px;
+      align-self: center;
+      border-radius: 10px;
+      justify-self: end;
+    }
+    .dropdown:hover {
+      .dropdownContent {
+        display: block;
+      }
+    }
     .navbarButtonInside {
       width: 20px;
       height: 5px;
       margin: 5px;
+      margin-top: 3px;
       background-color: white;
-    }
-    .navbarButtonInside:nth-of-type(1) {
-      margin-top: 2px;
     }
   }
 }

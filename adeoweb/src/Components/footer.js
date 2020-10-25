@@ -1,12 +1,14 @@
 import React from "react";
 import FooterStyle from "../Styles/footer.module.scss";
+import NavbarStyle from "../Styles/navbar.module.scss";
 import Navbar from "./navbar";
 import Name from "./demoName";
+
 const footer = () => {
   return (
     <div className={FooterStyle.gridTemplate}>
       <div className={FooterStyle.gridFooterNavbar}>
-        <Navbar dropdown={{ bottom: "100%" }} arrow="down" />
+        <Navbar dropdown={NavbarStyle.dropdownDown} />
       </div>
       <div className={FooterStyle.gridFooterText}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

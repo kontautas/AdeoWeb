@@ -22,6 +22,11 @@ const App = () => {
               <Homepage />
             </Route>
             <Route
+              path="/works"
+              exact
+              render={() => <Page name="ALL WORKS" />}
+            ></Route>
+            <Route
               path="/works/all"
               exact
               render={() => <Page name="ALL" />}
