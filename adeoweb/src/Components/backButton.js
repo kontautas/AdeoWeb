@@ -12,7 +12,7 @@ const BackButton = () => {
     lastLocationPath = lastLocationObject.pathname;
   }
   return (
-    <div className={ButtonStyle.learnButton}>
+    <div className={ButtonStyle.learnButton} style={{ width: "120px" }}>
       <div style={{ paddingRight: "5px" }}>&larr;</div>
       <NavLink className={ButtonStyle.NavLink} to={lastLocationPath}>
         BACK

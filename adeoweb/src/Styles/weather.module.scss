@@ -50,7 +50,7 @@
       padding: 2% 2%;
       .text {
         align-self: center;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 900;
       }
     }
@@ -74,7 +74,7 @@
       padding: 2% 2%;
       .text {
         align-self: center;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 900;
       }
     }
@@ -88,7 +88,7 @@ img {
 @media screen and (max-width: 1200px) {
   .gridHomepagebody {
     grid-template-columns: 1fr;
-    grid-template-rows: 50px 50px 2fr repeat(2, minmax(300px, 1fr));
+    grid-template-rows: 50px 50px 2fr repeat(2, minmax(100px, 1fr));
     padding-left: 5%;
     padding-right: 5%;
 
@@ -115,12 +115,18 @@ img {
       grid-column-end: 1;
       grid-row-start: 4;
       grid-row-end: 5;
+      .backgroundText .text {
+        font-size: 30px;
+      }
     }
     .gridBooks {
       grid-column-start: 1;
       grid-column-end: 1;
       grid-row-start: 5;
       grid-row-end: 6;
+      .backgroundText .text {
+        font-size: 30px;
+      }
     }
   }
 }

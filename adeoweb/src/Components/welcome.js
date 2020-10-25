@@ -20,6 +20,7 @@ const Welcome = () => {
               backgroundColor: "#3B91C2",
             }}
             link={{ color: "white" }}
+            to="/learnmore"
           />
         </div>
       </div>

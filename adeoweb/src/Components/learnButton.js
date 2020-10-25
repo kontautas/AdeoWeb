@@ -7,7 +7,7 @@ const LearnButton = (props) => {
       <NavLink
         className={LearnButtonStyle.NavLink}
         style={props.link}
-        to="/learnmore"
+        to={props.to}
       >
         LEARN MORE
       </NavLink>
