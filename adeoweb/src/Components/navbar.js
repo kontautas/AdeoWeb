@@ -33,7 +33,7 @@ function Navbar(props) {
           </div>
         </div>
         <Link className={NavbarStyle.navbarElement} to="/aboutme">
-          ABOUT_ME
+          ABOUT&nbsp;ME
         </Link>
         <Link className={NavbarStyle.navbarElement} to="/contact">
           CONTACT

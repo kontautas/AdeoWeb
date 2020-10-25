@@ -25,7 +25,7 @@ const Header = () => {
             WORKS
           </Link>
           <Link className={HeaderStyle.dropdownElement} to="/aboutme">
-            ABOUT_ME
+            ABOUT&nbsp;ME
           </Link>
           <Link className={HeaderStyle.dropdownElement} to="/contact">
             CONTACT
