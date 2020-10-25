@@ -1,7 +1,7 @@
 .gridHomepagebody {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 50px repeat(4, minmax(60px, 1fr));
+  grid-template-rows: 50px 50px repeat(4, minmax(50px, 1fr));
   color: black;
   padding-left: 24%;
   padding-right: 24%;

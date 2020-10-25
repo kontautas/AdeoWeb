@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../Components/header";
 import Footer from "../Components/footer";
 import Welcome from "../Components/welcome";
-import HomepageBody from "../Components/homepagebody";
+import Weather from "../Components/weather";
 import Contact from "../Components/contact";
 const Homepage = () => {
   return (
     <div>
       <Header />
       <Welcome />
-      <HomepageBody />
+      <Weather />
       <Contact />
       <Footer />
     </div>

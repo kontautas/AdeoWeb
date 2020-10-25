@@ -1,13 +1,13 @@
 import React from "react";
-import Homepage from "../Styles/homepagebody.module.scss";
-import Product from "./products";
-const HomepageBody = () => {
+import Homepage from "../Styles/weather.module.scss";
+import Meteo from "./GetMeteo";
+const Weather = () => {
   return (
     <div className={Homepage.gridHomepagebody}>
       <div className={Homepage.gridProducts}>PRODUCTS</div>
       <div className={Homepage.gridOffers}>OFFERS TODAY</div>
       <div className={Homepage.gridWeather}>
-        <Product />
+        <Meteo />
       </div>
       <div className={Homepage.gridCoffee}>
         <div className={Homepage.backgroundText}>
@@ -22,4 +22,4 @@ const HomepageBody = () => {
     </div>
   );
 };
-export default HomepageBody;
+export default Weather;

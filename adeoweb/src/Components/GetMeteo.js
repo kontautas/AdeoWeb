@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Snowflake from "../Images/snowflake.svg";
 import Sunglasses from "../Images/sunglasses.svg";
 import Umbrella from "../Images/umbrella.svg";
-function Product(props) {
+function GetMeteo(props) {
   useEffect(() => {
     fetchMeteo();
   }, []);
@@ -73,4 +73,4 @@ function Product(props) {
   return <div>{image}</div>;
 }
 
-export default Product;
+export default GetMeteo;
