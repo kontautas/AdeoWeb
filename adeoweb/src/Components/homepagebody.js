@@ -10,10 +10,14 @@ const HomepageBody = () => {
         <Product />
       </div>
       <div className={Homepage.gridCoffee}>
-        <div className={Homepage.backgroundText}>THE BEST COFFEE</div>
+        <div className={Homepage.backgroundText}>
+          <div className={Homepage.text}>THE BEST COFFEE</div>
+        </div>
       </div>
       <div className={Homepage.gridBooks}>
-        <div className={Homepage.backgroundText}>TOP 100 BOOKS</div>
+        <div className={Homepage.backgroundText}>
+          <div className={Homepage.text}>TOP 100 BOOKS</div>
+        </div>
       </div>
     </div>
   );
